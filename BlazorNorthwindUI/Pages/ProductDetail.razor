@@ -1,0 +1,67 @@
+﻿@page "/productdetail/{productid:int}"
+
+@using BlazorNorthwindUI.Models
+@using BlazorNorthwindUI.Services
+@using BlazorNorthwindUI.Utilities
+
+@inject IProductService ProductService
+@inject ICategoryService CategoryService
+@inject NavigationManager NavigationManager
+
+
+@if (product != null)
+{
+    <h3>ProductDetail for @product.ProductName</h3>
+    <EditForm Model="@product" OnValidSubmit="@HandleSave">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <ValidationSummary />
+        <div class="form-group">
+            <InputText PlaceHolder="Ürün Adı" Class="form-control" Id="productName" @bind-Value="@product.ProductName" />
+        </div>
+        <div class="form-group">
+            <InputNumber PlaceHolder="Ürün Fiyatı" Class="form-control" Id="unitPrice" @bind-Value="@product.UnitPrice" />
+            <ValidationMessage For="@(()=> product.UnitPrice)"/>
+        </div>
+        <div class="form-group">
+            <InputNumber PlaceHolder="Stok Adedi" Class="form-control" Id="unitsStock" @bind-Value="@product.UnitsInStock" />
+            <ValidationMessage For="@(()=> product.UnitsInStock)" />
+        </div>
+        <div class="form-group">
+            <InputTextArea PlaceHolder="Açıklama" Class="form-control" Id="quantityPerUnit" @bind-Value="@product.QuantityPerUnit" />
+        </div>
+        <div class="form-group">
+            @if (categoryList != null)
+            {
+                <InputSelectNumber Class="form-control" Id="CategoryId" @bind-Value="@product.CategoryId">
+                    @foreach (var item in categoryList)
+                    {
+                        <option value="@item.CategoryId">@item.CategoryName</option>
+                    }
+
+                </InputSelectNumber>
+            }
+        </div>
+        <button class="btn btn-primary" type="submit">Kaydet</button>
+    </EditForm>
+}
+
+
+
+@code {
+    [Parameter]
+    public int ProductId { get; set; }
+
+    ProductVM product;
+    CategoryListVM[] categoryList;
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await ProductService.GetProductById(ProductId);
+        categoryList = await CategoryService.GetCategories();
+    }
+
+    private void HandleSave()
+    {
+        ProductService.Save(product);
+    }
+}

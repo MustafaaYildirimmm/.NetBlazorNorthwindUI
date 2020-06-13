@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using BlazorNorthwindUI.Services;
 
 namespace BlazorNorthwindUI
 {
@@ -15,6 +16,8 @@ namespace BlazorNorthwindUI
         public static async Task Main(string[] args)
         {
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
+            builder.Services.AddSingleton<IProductService,ProductService>();
+            builder.Services.AddSingleton<ICategoryService,CategoryService>();
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });

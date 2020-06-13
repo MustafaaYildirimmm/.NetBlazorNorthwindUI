@@ -178,7 +178,6 @@ C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netsta
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\BlazorNorthwindUI.RazorTargetAssemblyInfo.cache
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\BlazorNorthwindUI.csproj.CopyComplete
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\mqAompukIYKiVDvi_WquicmGbQeno2ruX38jgzxRag0=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -230,13 +229,11 @@ C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netsta
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\oAIlpv09S-0jXnze744E1V88Oaw8Ql1x3Alw0hsVYdw=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash
-C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\nZw8nRtvRi4_z_quf9bvlGkKI4UvMR_QMVdgX98LeBU=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\oU0moF6IIkna1pMoSD6Ze63s6aHfjCtUflz7xDmENPg=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\mn0SkUNPkG4KX-wF_28vInWEEw8YHwtWQGl56cy5zH4=.hash
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\compressed\_framework\_bin\BlazorNorthwindUI.dll.gz
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
@@ -357,3 +354,10 @@ C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netsta
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\staticwebassets\BlazorNorthwindUI.StaticWebAssets.xml
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\BlazorNorthwindUI.dll
 C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\BlazorNorthwindUI.pdb
+C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\RazorDeclaration\Pages\ProductList.razor.g.cs
+C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\Razor\Pages\ProductList.razor.g.cs
+C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\RazorDeclaration\Pages\ProductDetail.razor.g.cs
+C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\Razor\Pages\ProductDetail.razor.g.cs
+C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\30a5qIMjKMcVFOhRExE-jlx_uolfQlWsbftlF_1Jf_8=.hash
+C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\kopGRnEKFK9XfJwHCdaUgsfWc-m1miw-Gfkd7XlVfGQ=.hash
+C:\Users\msft_\source\repos\BlazorNorthwindUI\BlazorNorthwindUI\obj\Debug\netstandard2.1\integrity\0lT_JQvPiCJdJyTr8ZA-1yV0ew8nrWkLeJs09SdEcig=.hash
